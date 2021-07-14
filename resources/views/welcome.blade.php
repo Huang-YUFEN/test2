@@ -42,13 +42,13 @@
             <!-- The slideshow -->
             <div class="carousel-inner ranslate-middle">
                 <div class="carousel-item active">
-                    <img src="http://127.0.0.1/后里.jpg" alt="后里" width="100%" height="100%">
+                    <img src="{{ asset('images/place_202107121701571994780053.jpg') }}" alt="國家歌劇院" width="100%" height="100%">
                 </div>
                 <div class="carousel-item">
-                    <img src="http://127.0.0.1/武陵.jpg" alt="武嶺" width="100%" height="100%">
+                    <img src="{{ asset('images/place_20210712181509813467987.jpg') }}" alt="武嶺" width="100%" height="100%">
                 </div>
                 <div class="carousel-item">
-                    <img src="http://127.0.0.1/國家歌劇院.jpg" alt="國家歌劇院" width="100%" height="100%">
+                    <img src="{{ asset('images/place_202107121835211059771999.jpg') }}" alt="高美濕地" width="100%" height="100%">
                 </div>
                 <!-- Left and right controls -->
                     <a class="carousel-control-prev" href="#demo" data-slide="prev">
