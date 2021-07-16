@@ -119,7 +119,6 @@ class PlaceController extends Controller
         $place->input = $request->get('input');
         $place->save(); 
         return redirect('/places')->with('success', '更新OK！');
-        $this->authorize('update', $place);
     }
 
     /**
